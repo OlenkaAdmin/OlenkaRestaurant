@@ -205,18 +205,18 @@ nav svg {
     padding-bottom: 0.25rem;
 }
 
-#owner-image-padding {
+.owner-image-padding {
     padding-top: 2rem;
 }
 
-#owner-image-text-main {
+.owner-image-text-main {
     font-size: 1.2rem;
     padding-top: 0.75rem;
     padding-bottom: 0.25rem;
     color: goldenrod;
 }
 
-#owner-image { /* Ehemals #owner-container */
+.owner-image {
     display: block;
     background: url(Images/owner.jpeg);
     background-position: top;
@@ -544,7 +544,7 @@ nav svg {
 
     /* Welcome Section */
 
-    #owner-image { /* Ehemals #owner-container */  
+    .owner-image {
         height: 30rem;
     }
 
