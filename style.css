@@ -214,11 +214,6 @@ nav svg {
     padding: 1rem 1rem 5rem 1rem;
 }
 
-#owner-container img {
-    width: 100%;
-    max-width: 30rem;
-}
-
 #owner-image { /* Ehemals #owner-container */
     background: url(Images/owner.jpg);
     background-position: top;
