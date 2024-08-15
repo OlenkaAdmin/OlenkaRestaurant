@@ -186,7 +186,7 @@ nav svg {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 5rem 2rem;
+    padding: 5rem 2rem 1rem 2rem;
 }
 
 #welcome-text-main {
@@ -205,8 +205,13 @@ nav svg {
     padding-bottom: 0.25rem;
 }
 
-.owner-image-padding {
-    padding-top: 2rem;
+#owner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 1rem 5rem 1rem;
 }
 
 .owner-image-text-main {
@@ -217,7 +222,6 @@ nav svg {
 }
 
 .owner-image {
-    display: block;
     background: url(Images/owner.jpeg);
     background-position: top;
     background-size: cover;
@@ -227,9 +231,6 @@ nav svg {
     width: 100%;
 
     max-width: 30rem;
-
-    margin-left: auto;
-    margin-right: auto;
 
     box-shadow: inset 0px 0px 20px 1px #0d0d0d;
 }
