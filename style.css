@@ -206,25 +206,24 @@ nav svg {
 }
 
 #owner-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    height: 30rem;
-    width: 100%;
-
-    padding: 1rem 1rem 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 1rem 1rem 5rem 1rem;
 }
 
-#owner-image-text-main {
-    font-size: 1.2rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.25rem;
-    color: goldenrod;
+#owner-container img {
+    width: 100%;
+    max-width: 30rem;
 }
 
-#owner-image {
+#owner-image { /* Ehemals #owner-container */
+    background: url(Images/owner.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     height: 20rem;
     width: 100%;
@@ -232,6 +231,13 @@ nav svg {
     max-width: 30rem;
 
     box-shadow: inset 0px 0px 20px 1px #0d0d0d;
+}
+
+#owner-image-text-main {
+    font-size: 1.2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.25rem;
+    color: goldenrod;
 }
 
 
